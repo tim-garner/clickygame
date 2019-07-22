@@ -13,7 +13,7 @@ render() {
   return (
     <Wrapper>
       <Title>WWF Wrestlers</Title>
-      {this.state.wrestlers.map(friend => (
+      {this.state.wrestlers.map(wrestlers => (
         <WrestlerCard
         id={wrestlers.id}
         key={wrestlers.id}

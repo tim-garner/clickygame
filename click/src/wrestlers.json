@@ -1,52 +1,54 @@
 [
     {
-        "id":0,
+        "id":1,
         "name": "Undertaker",
-        "image": "",
+        "image": "./assets/images/undertaker.jpg",
         "nickename": "The Phenom",
         "born": "Houston TX"
     },
     {
-        "id":1,
+        "id":2,
         "name": "Stone Cold Steve Austin",
-        "image": "",
+        "image": "./assets/images/scsa.jpg",
         "nickename": "The Texas Rattlesnake",
         "born": "Austin TX"
     },
     {
-        "id":2,
+        "id":3,
         "name": "Jim Duggan",
-        "image": "",
+        "image": "./assets/images/hacksaw.jpg",
         "nickename": "Hacksaw",
         "born": "Glen Falls NY"
     },
     {
-        "id":3,
+        "id":4,
         "name": "Hulk Hogan",
-        "image": "",
+        "image": "./assets/images/hulk.jpg",
         "nickename": "Hollywood Hogan",
         "born": "Augusta GA"
     },
     {
         "id":5,
         "name": "Mick Foley",
-        "image": "",
+        "image": "./assets/images/mankind.png",
         "nickename": "Mankind",
         "born": "Bloomington IN"
     },
     {
         "id":6,
         "name": "Kane",
-        "image": "",
+        "image": "./assets/images/kane.jpg",
         "nickename": "The Red Machine",
         "born": "Torrejón de Ardoz Spain"
     },
     {
         "id":7,
         "name": "The Rock",
-        "image": "",
+        "image": "./assets/images/rock.jpg",
         "nickename": "The Peoples Champ",
         "born": "Houston TX"
     }
 
 ]
+
+
