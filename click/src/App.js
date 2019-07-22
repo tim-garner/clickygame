@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import WrestlerCard from "./components/WrestlerCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import wrestlers from "./wrestlers.json";
 
-function App() {
+class App extends Component {
+  state = {
+    wrestlers
+  
+};
+render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <Title>WWF Wrestlers</Title>
+      {this.state.wrestlers.map(friend => (
+        <WrestlerCard
+        id={wrestlers.id}
+        key={wrestlers.id}
+        name={wrestlers.name}
+        image={wrestlers.image}
+        nickename={wrestlers.nickename}
+        born={wrestlers.born}
+        />
+      ))}
+    </Wrapper>
   );
+}
 }
 
 export default App;
