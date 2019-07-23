@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import WrestlerCard from "./components/WrestlerCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+// import Title from "./components/Title";
 import wrestlers from "./wrestlers.json";
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+
 
 class App extends Component {
   state = {
@@ -12,15 +15,15 @@ class App extends Component {
 render() {
   return (
     <Wrapper>
-      <Title>WWF Wrestlers</Title>
+         <Navbar />
+      <Jumbotron />
       {this.state.wrestlers.map(wrestlers => (
         <WrestlerCard
         id={wrestlers.id}
         key={wrestlers.id}
         name={wrestlers.name}
         image={wrestlers.image}
-        nickename={wrestlers.nickename}
-        born={wrestlers.born}
+
         />
       ))}
     </Wrapper>
