@@ -47,6 +47,11 @@
         "image": "./assets/images/rock.jpg",
         "nickename": "The Peoples Champ",
         "born": "Houston TX"
+    },
+    {
+    "id":8,
+    "name": "China",
+    "image":"./assets/images/china.webp"
     }
 
 ]

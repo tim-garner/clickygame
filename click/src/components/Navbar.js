@@ -10,8 +10,8 @@ function Navbar() {
           </li>
           <li class>Click an Image to begin</li>
           <li>
-              "Score: "
-              "0" | Top Score: "
+              Score: 
+              "0" | Top Score: 
               "0"
           </li>
       </ul>

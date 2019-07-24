@@ -8,3 +8,9 @@ html, body, #root {
   margin: 0;
   height: 100%;
 }
+
+.jumbotron {
+  background-color: beige;
+  font-size: 20px;
+  margin-top: 2.5%;
+}

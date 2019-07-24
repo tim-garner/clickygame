@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import WrestlerCard from "./components/WrestlerCard";
 import Wrapper from "./components/Wrapper";
-// import Title from "./components/Title";
 import wrestlers from "./wrestlers.json";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
