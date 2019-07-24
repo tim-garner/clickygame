@@ -1,10 +1,11 @@
 .card {
-  background: lightblue;
+  background: whitesmoke;
   border-radius: 2px;
    height: auto;
   max-height: 250px;
   width: auto;
   max-width: 250px;
+  
  
 
   
@@ -16,6 +17,7 @@
   max-height: 250px;
   width: auto;
   max-width: 250px;
+ 
 
 }
 .card > .img-container > img {

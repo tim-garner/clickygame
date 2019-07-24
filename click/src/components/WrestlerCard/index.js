@@ -5,7 +5,7 @@ import { Row, Col } from 'react-simple-flex-grid';
  
 function WrestlerCard(props) {
     return (
-
+        // <div className="card">
         
         <Row vertical="center">
             
@@ -13,11 +13,13 @@ function WrestlerCard(props) {
         <Col span={12} className="card" Row horizontal="center">
            
            <div className="img-container" >
-               <img alt={props.name} src={props.image} />
+               <img alt={props.name} src={props.image} id={props.id}
+               onClick={ () => props.wsc(props.id)}className="wscscore" />
        </div>
         </Col>
     
      </Row>
+    //  </div>
     );
 }
 
