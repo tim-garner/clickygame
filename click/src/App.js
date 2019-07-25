@@ -26,11 +26,13 @@ wsc = id => {
     clickedWwfIds.push(id)
 
     if(clickedWwfIds.length === 8){
-      this.setState({score: 8, status: "You Won!", clickedWwfIds: []});
+      this.setState({score: 8, status: "You Won!! Click again to play", clickedWwfIds: []});
+      console.log("You Win");
+      return;
   
     }
 
-    this.setState({ wrestlers,  clickedWwfIds, score: clickedWwfIds.length, status: " " });
+    this.setState({ wrestlers,  clickedWwfIds, score: clickedWwfIds.length, status: "" });
 
     for (let i =wrestlers.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
