@@ -10,8 +10,11 @@ html, body, #root {
 }
 
 .jumbotron {
-  background-color: beige;
+
   font-size: 20px;
   margin-top: 2.5%;
+  background: purple;
+  color: gold;
 }
+
 

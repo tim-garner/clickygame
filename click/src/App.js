@@ -4,7 +4,7 @@ import Wrapper from "./components/Wrapper";
 import wrestlers from "./wrestlers.json";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-
+import Title from "./components/Title/";
 
 class App extends Component {
   state = {
@@ -43,6 +43,11 @@ wsc = id => {
 render() {
   return (
     <Wrapper>
+      <Title total={this.state.counter}
+      goal={8}
+      status={this.state.status}>
+
+      </Title>
          <Navbar />
       <Jumbotron />
       {this.state.wrestlers.map(wrestlers => (
