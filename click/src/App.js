@@ -26,7 +26,7 @@ wsc = id => {
     clickedWwfIds.push(id)
 
     if(clickedWwfIds.length === 8){
-      this.setState({score: 8, status: "You Won!! Click again to play", clickedWwfIds: []});
+      this.setState({clickedWwfIds: [], score: 8, status: "You Won!! Click again",});
       console.log("You Win");
       return;
   
