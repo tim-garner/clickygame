@@ -45,7 +45,7 @@ wsc = id => {
 render() {
   return (
     <Wrapper>
-      <Title total={this.state.counter}
+      <Title total={this.state.score}
       goal={8}
       status={this.state.status}>
 
