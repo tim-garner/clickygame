@@ -10,7 +10,7 @@ class App extends Component {
   state = {
     wrestlers,
     score: 0,
-    goal: 8,
+    goal: 12,
     clickedWwfIds: [],
     status: ""
   
@@ -25,7 +25,7 @@ wsc = id => {
   }else{
     clickedWwfIds.push(id)
 
-    if(clickedWwfIds.length === 8){
+    if(clickedWwfIds.length === 12){
       this.setState({clickedWwfIds: [], score: 12, status: "You Won!! Click again",});
       console.log("You Win");
       return;
