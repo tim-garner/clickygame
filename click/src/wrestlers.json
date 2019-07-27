@@ -2,69 +2,69 @@
     {
         "id":1,
         "name": "Undertaker",
-        "image": "./assets/images/undertaker.jpg"
+        "image": "./images/undertaker.jpg"
   
     },
     {
         "id":2,
         "name": "Stone Cold Steve Austin",
-        "image": "./assets/images/scsa.jpg"
+        "image": "./images/scsa.jpg"
      
     },
     {
         "id":3,
         "name": "Jim Duggan",
-        "image": "./assets/images/hacksaw.jpg"
+        "image": "./images/hacksaw.jpg"
      
     },
     {
         "id":4,
         "name": "Hulk Hogan",
-        "image": "./assets/images/hulk.jpg"
+        "image": "./images/hulk.jpg"
     
     },
     {
         "id":5,
         "name": "Mick Foley",
-        "image": "./assets/images/mankind.png"
+        "image": "./images/mankind.png"
 
     },
     {
         "id":6,
         "name": "Kane",
-        "image": "./assets/images/kane.jpg"
+        "image": "./images/kane.jpg"
   
     },
     {
         "id":7,
         "name": "The Rock",
-        "image": "./assets/images/rock.jpg"
+        "image": "./images/rock.jpg"
 
     },
     {
     "id":8,
     "name": "China",
-    "image":"./assets/images/china.webp"
+    "image":"./images/china.webp"
     },
     {
     "id":9,
     "name": "Sable",
-    "image": "./assets/images/sable.jpg"
+    "image": "./images/sable.jpg"
     },
     {
         "id":10,
         "name": "Macho Man",
-        "image": "./assets/images/machoman.jpg"
+        "image": "./images/machoman.jpg"
         },
         {
             "id":11,
             "name": "Yokozuna",
-            "image": "./assets/images/Yoko.jpg"
+            "image": "./images/Yoko.jpg"
             },
             {
                 "id":12,
                 "name": "ted",
-                "image": "./assets/images/mmd.jpg"
+                "image": "./images/mmd.jpg"
                 }
     
 
