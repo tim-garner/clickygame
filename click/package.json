@@ -5,7 +5,7 @@
   "homepage": "https://tim-garner.github.io/clickygame",
   "engines": {
     "npm": "6.4.1",
-    "node": "10.15.2",
+    "node": "10.15.2"
     
   },
   "dependencies": {
