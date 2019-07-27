@@ -7,6 +7,7 @@ import "./style.css";
 
 const Title = props => (
     <div className="game">
+        <h1>WWF Wrestler Memory Game!</h1>
         <h2 className="score">{props.total}</h2>
         <h2 className="status">{props.status}</h2>
     </div>

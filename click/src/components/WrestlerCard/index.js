@@ -14,7 +14,7 @@ function WrestlerCard(props) {
            
            <div className="img-container" >
                <img alt={props.name} src={props.image} id={props.id}
-               onClick={ () => props.wsc(props.id)}className="wscscore" />
+               onClick={ () => props.wsc(props.id)}className="wscscores" />
        </div>
         </Col>
     

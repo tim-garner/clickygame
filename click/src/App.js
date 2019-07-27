@@ -45,13 +45,14 @@ wsc = id => {
 render() {
   return (
     <Wrapper>
-      <Title total={this.state.score}
-      goal={8}
-      status={this.state.status}>
-
-      </Title>
-         <Navbar />
-      <Jumbotron />
+      <Title />
+          {/* <Jumbotron /> */}
+         {/* <Navbar /> */}
+         <Jumbotron total={this.state.score} status={this.state.status} />
+         {/* goal={8}
+         status={this.state.status} */}
+      
+      {/* <Jumbotron /> */}
       {this.state.wrestlers.map(wrestlers => (
         <WrestlerCard
         wsc={this.wsc}

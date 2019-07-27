@@ -1,22 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 
 
-function Navbar() {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <ul>
-          <li class="brand">
-              <a href="/">Clicky Game</a>
-          </li>
-          <li class>Click an Image to begin</li>
-          <li>
-              Score: 
-              "0" | Top Score: 
-              "0"
-          </li>
-      </ul>
-      </nav>
-  );
-}
+const Navbar = props => (
+  <nav className= "navbar navbar-expand-lg navbar-light bg-light">
+     
+        <h1>WWF Wrestler Memory Game!</h1>
+        <h2 className="score">{props.total}</h2>
+        <h2 className="status">{props.status}</h2>
+
+  </nav>
+);
+
+
 
 export default Navbar;
