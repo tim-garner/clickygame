@@ -5,7 +5,7 @@ import { Row, Col } from 'react-simple-flex-grid';
  
 function WrestlerCard(props) {
     return (
-        // <div className="card">
+
         
         <Row vertical="center">
             
@@ -19,7 +19,7 @@ function WrestlerCard(props) {
     </Col>
     
      </Row>
-    //  </div>
+
     );
 }
 

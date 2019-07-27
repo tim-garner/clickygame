@@ -65,8 +65,17 @@
                 "id":12,
                 "name": "ted",
                 "image": "./images/mmd.jpg"
-                }
-    
+                },
+                {
+                "id":  13,
+                "name": "Ultimate Warrior",
+                "image": "./images/uw.jpg"
+                },
+                {
+                    "id": 14,
+                    "name": "Jake The Snake",
+                    "image": "./images/js.jpg"
+                }    
 
 ]
 

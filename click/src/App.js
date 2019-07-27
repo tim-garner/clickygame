@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import WrestlerCard from "./components/WrestlerCard";
 import Wrapper from "./components/Wrapper";
 import wrestlers from "./wrestlers.json";
-// import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Title from "./components/Title/";
 
@@ -10,29 +9,29 @@ class App extends Component {
   state = {
     wrestlers,
     score: 0,
-    goal: 12,
+    goal: 14,
     clickedWwfIds: [],
-    status: ""
-  
+    status: "",
+    highscore: 0
 };
 
 wsc = id => {
   let clickedWwfIds= this.state.clickedWwfIds;
 
   if(clickedWwfIds.includes(id)){
-    this.setState({ clickedWwfIds: [], score: 0, status:  "lost!" });
+    this.setState({ clickedWwfIds: [], score: 0, status:  "lost!",});
     return;
   }else{
     clickedWwfIds.push(id)
 
-    if(clickedWwfIds.length === 12){
-      this.setState({clickedWwfIds: [], score: 12, status: "You Won!! Click again",});
+    if(clickedWwfIds.length === 14){
+      this.setState({clickedWwfIds: [], score: 14, status: "You Won!! Click again",});
       console.log("You Win");
       return;
   
     }
 
-    this.setState({ wrestlers,  clickedWwfIds, score: clickedWwfIds.length, status: "" });
+    this.setState({ wrestlers,  clickedWwfIds, score: clickedWwfIds.length, status: "", });
 
     for (let i =wrestlers.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
@@ -46,13 +45,9 @@ render() {
   return (
     <Wrapper>
       <Title />
-          {/* <Jumbotron /> */}
-         {/* <Navbar /> */}
+
          <Jumbotron total={this.state.score} status={this.state.status} />
-         {/* goal={8}
-         status={this.state.status} */}
-      
-      {/* <Jumbotron /> */}
+ 
       {this.state.wrestlers.map(wrestlers => (
         <WrestlerCard
         wsc={this.wsc}
