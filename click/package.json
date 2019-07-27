@@ -2,10 +2,11 @@
   "name": "click",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tim-garner.github.io/clickygame",
   "engines": {
     "npm": "6.4.1",
     "node": "10.15.2",
-    "homepage": "https://tim-garner.github.io/clickygame"
+    
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
