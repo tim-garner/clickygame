@@ -2,57 +2,71 @@
     {
         "id":1,
         "name": "Undertaker",
-        "image": "./assets/images/undertaker.jpg",
-        "nickename": "The Phenom",
-        "born": "Houston TX"
+        "image": "./assets/images/undertaker.jpg"
+  
     },
     {
         "id":2,
         "name": "Stone Cold Steve Austin",
-        "image": "./assets/images/scsa.jpg",
-        "nickename": "The Texas Rattlesnake",
-        "born": "Austin TX"
+        "image": "./assets/images/scsa.jpg"
+     
     },
     {
         "id":3,
         "name": "Jim Duggan",
-        "image": "./assets/images/hacksaw.jpg",
-        "nickename": "Hacksaw",
-        "born": "Glen Falls NY"
+        "image": "./assets/images/hacksaw.jpg"
+     
     },
     {
         "id":4,
         "name": "Hulk Hogan",
-        "image": "./assets/images/hulk.jpg",
-        "nickename": "Hollywood Hogan",
-        "born": "Augusta GA"
+        "image": "./assets/images/hulk.jpg"
+    
     },
     {
         "id":5,
         "name": "Mick Foley",
-        "image": "./assets/images/mankind.png",
-        "nickename": "Mankind",
-        "born": "Bloomington IN"
+        "image": "./assets/images/mankind.png"
+
     },
     {
         "id":6,
         "name": "Kane",
-        "image": "./assets/images/kane.jpg",
-        "nickename": "The Red Machine",
-        "born": "Torrejón de Ardoz Spain"
+        "image": "./assets/images/kane.jpg"
+  
     },
     {
         "id":7,
         "name": "The Rock",
-        "image": "./assets/images/rock.jpg",
-        "nickename": "The Peoples Champ",
-        "born": "Houston TX"
+        "image": "./assets/images/rock.jpg"
+
     },
     {
     "id":8,
     "name": "China",
     "image":"./assets/images/china.webp"
-    }
+    },
+    {
+    "id":9,
+    "name": "Sable",
+    "image": "./assets/images/sable.jpg"
+    },
+    {
+        "id":10,
+        "name": "Macho Man",
+        "image": "./assets/images/machoman.jpg"
+        },
+        {
+            "id":11,
+            "name": "Yokozuna",
+            "image": "./assets/images/Yoko.jpg"
+            },
+            {
+                "id":12,
+                "name": "ted",
+                "image": "./assets/images/mmd.jpg"
+                }
+    
 
 ]
 
