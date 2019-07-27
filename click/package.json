@@ -2,6 +2,11 @@
   "name": "click",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.2"
+  },
+  
   "dependencies": {
     "bootstrap": "^4.3.1",
     "express": "^4.17.1",
