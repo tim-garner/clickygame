@@ -15,7 +15,7 @@
     "react-scripts": "3.0.1",
     "react-simple-flex-grid": "^1.2.3",
     "save": "^2.4.0",
-    "simple-flexbox": "^2.1.1",
+    "simple-flexbox": "^2.3.3",
     "yarn": "^1.17.3"
   },
   "scripts": {
